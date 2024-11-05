@@ -1,64 +1,33 @@
-*{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+* {
+    margin: 0;
+    padding: 0;    
+}
+
+body {
+    display: flex;
+
 }
 
 .left-content {
-    background-color: #d6d6d6;
-    color:rgb(0, 0, 0);
-    display: inline-block;
+    width: 50%;
+    height: 100vh;
+    background-color: lightgray;
 }
 
-.sneackers {
-    background-color: #f2efe6;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 20px;
+.profileicon1 {
+    width: 100px;
 }
 
-.models {
-    padding: 5px;
-    background-color: #d6d6d6;
-    border-radius: 10px;
-    margin-bottom: 20px;
-    display: flex;
-    align-items: center;
-    padding: 20px;
+.profileicon2 {
+    width: 150px;
 }
 
-.models img {
-    width: 200px;
-    margin-bottom: 20px;
-}
-
-.models h2 {
-    font-size: 20px;
-    font-weight: bolder;
-}
-
-.models p {
-    font-size: 18px;
+.profileicon3 {
+    width: 50px;
 }
 
 .right-content {
-    background-color: #1c1b1b;
-    color:rgb(255, 255, 255);
-    display: inline-block;
-}
-
-.information h2,
-h3 {
-    text-decoration: underline;
-    font-size: 35px;
-}
-
-.img-information {
-    width: 20%;
-    height: 20%;
-    align-content: center;
-    display: inline;
-}
-
-.card {
-    width: 400%;
+    width: 50%;
+    height: 100vh;
+    background-color: black;
 }
