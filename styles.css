@@ -26,6 +26,90 @@ body {
     width: 50px;
 }
 
+.sneackers {
+    background-color: #f2efe6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 40px;
+    width: 60%;
+    height: 60%;
+    margin: 0 auto;
+}
+
+.models {
+    padding: 5px;
+    background-color: #d6d6d6;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    height: 15%;
+}
+
+.models img {
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+.models h2 {
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.models p {
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.um {
+    
+}
+
+.total-content {
+    font-size: 50px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.total-preco {
+    background-color: #bbbbbb;
+    width: 20%;
+    height: 10%;
+}
+
+.under-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.under-content img {
+    max-width: 20%;
+    max-height: 20%;
+}
+
+.cancel {
+    background-color: #f16763;
+    border-radius: 5px;
+    width: 20%;
+    height: 10%;
+}
+
+.confirm {
+    background-color: #4a9af0;
+    border-radius: 5px;
+    width: 20%;
+    height: 10%;
+}
+
+
+
+
 .right-content {
     width: 50%;
     height: 100vh;
