@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 body {
@@ -12,6 +13,17 @@ body {
     width: 50%;
     height: 100vh;
     background-color: lightgray;
+}
+
+.menu-left {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.menu-left p {
+    font-size: 30px;
+    font-weight: bold;
 }
 
 .profileicon1 {
@@ -50,7 +62,7 @@ body {
 }
 
 .models img {
-    width: 200px;
+    width: 150px;
     margin-bottom: 20px;
 }
 
@@ -64,16 +76,19 @@ body {
     font-weight: bolder;
 }
 
-.um {
-    
+.um,
+.dois {
+    display: block;
+    font-size: 15px;
+    padding: 15px;
 }
 
 .total-content {
-    font-size: 50px;
+    font-size: 45px;
     font-weight: bold;
     display: flex;
-    align-items: center;
     gap: 5px;
+    justify-content: end;
 }
 
 .total-preco {
@@ -86,6 +101,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    font-size: 15px;
 }
 
 .under-content img {
@@ -96,17 +112,24 @@ body {
 .cancel {
     background-color: #f16763;
     border-radius: 5px;
-    width: 20%;
-    height: 10%;
+    width: 30%;
+    height: 15%;
+    text-align: center;
 }
 
 .confirm {
     background-color: #4a9af0;
     border-radius: 5px;
-    width: 20%;
-    height: 10%;
+    width: 30%;
+    height: 15%;
+    text-align: center;
 }
 
+.cancel img,
+.confirm img {
+    margin-right: 5px;
+    
+}
 
 
 
@@ -114,4 +137,64 @@ body {
     width: 50%;
     height: 100vh;
     background-color: black;
+}
+
+.menu-right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.menu-right p {
+    font-size: 30px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.menu-right img {
+    width: 30px;
+}
+
+.information h2,
+h3 {
+    text-decoration: underline;
+    font-size: 35px;
+    color: #ffffff;
+}
+
+.img-information {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 10px;
+}
+
+.img-information img {
+    width: 10%;
+    padding: 5%;
+    align-items: center;
+}
+
+.text-information {
+    margin: 5rem;
+}
+
+.card {
+    text-align: center;
+}
+
+.card img{
+    width: 50%;
+}
+
+.under-content,
+.under-content-right {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px;
+}
+
+.under-content-right h2 {
+    text-align: center;
+    color: #ffffff;
 }
