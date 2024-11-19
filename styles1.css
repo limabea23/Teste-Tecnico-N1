@@ -82,8 +82,9 @@
 .cancel {
     background-color: #f16763;
     border-radius: 5px;
-    width: 20%;
-    height: 10%;
+    width: 50%;
+    height: 25%;
+    text
 }
 
 .confirm {
@@ -123,7 +124,7 @@ h3 {
     justify-content: center;
 }
 
-.under-content {
+.under-content-right {
     display: flex;
     justify-content: space-around;
     margin: 50px;
